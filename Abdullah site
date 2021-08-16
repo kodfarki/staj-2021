@@ -1,0 +1,598 @@
+                                                                                   CSS KISMI 
+                                                                                   @media only screen and (min-width:1200px){ /* XL */
+
+       div{
+
+                       
+
+       }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+
+       div{
+
+                       
+
+       }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+
+       div{
+
+                       
+
+       }
+
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){ /* S */
+
+       div{
+
+                       
+
+       }
+
+}
+
+@media only screen and (max-width:575px){ /* XS */
+
+       div{
+
+                       
+
+       }
+
+}
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.cotn {
+    width: 100%;
+    margin-top: -5px;
+}
+
+.box {
+    border-top: 2px solid orange;
+    width: 100%;
+    background: #FAFAFA;
+    margin-top: 5px;
+}
+
+.header li a {
+    margin-left: 15px;
+    float: right;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.header-ul {
+    margin-right: 70px;
+}
+
+
+.acme {
+    display: inline;
+    width: 90px;
+    margin-left: 180px;
+    margin-top: 4px;
+}
+.card{
+    float: left;
+    margin-left: 130px;
+    margin-bottom: 40px;
+   
+    
+}
+#supclass{
+    
+    
+    
+    
+}
+
+.input {
+    display: inline;
+    border: 1px solid #FAFAFA;
+    border-radius: 12px;
+    width: 350px;
+    height: 50px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+}
+
+.device ul li a {
+    float: left;
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+    font-size: 20px;
+    display: inline
+}
+
+.categories {
+    display: inline;
+}
+.card-body{
+    margin-left: 30px;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+
+.account {
+    display: inline;
+
+}
+.menug{
+    
+    opacity: 0.1;
+    margin-left: 300px;
+   
+   
+    
+}
+
+#category {
+
+    border: 1px solid #FAFAFA;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+}
+
+#accounts {
+    border: 1px solid #FAFAFA;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+}
+
+#user {
+    margin-left: 10px;
+}
+
+
+.device {
+    float: left;
+    margin-left: 30px;
+}
+
+.device ul{
+    
+    list-style: none;
+     word-spacing: 10px;
+}
+.device{
+    
+    margin-top: 11px;
+    margin-left: 36%;
+    
+}
+.aat{
+    opacity: 0.1;
+    font-weight:bold;
+    font-size: 18px;
+    margin-top: 11px;
+    margin-left: 43%;
+}
+.ipo {
+    margin-top: 15px;
+    margin-left: 47%;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.sepet {
+    background: gold;
+    border: 1px solid #FAFAFA;
+    float: right;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-right: 220px;
+    width: 120px;
+    height: 50px;
+    margin-left: 20px;
+}
+.ııco{
+    margin-left: 420px;
+    
+    
+    
+}
+
+.sepet i {
+
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.sepet p {
+    float: right;
+    margin-top: 14px;
+    margin-right: 20px;
+}
+.ckma{
+    margin-bottom: 50px;
+    margin-left: 80px;
+    
+    
+}
+.rsma{
+    
+    float: left;
+}
+.ftr{
+    
+    margin-top: -2px;
+    
+    
+}
+
+                                                                     HTML KISMI 
+                                                                     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name=’viewport’ content=’width=device-width, initial-scale=1, user-scalable=yes’ />
+    <meta charset="UTF-8">
+    <title>Staj Projesi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+   
+</head>
+<body>
+  <div class="cotn">
+   <div class="header box">
+   <ul class="header-ul">
+       <li class="header-li">
+           <a href="www.google.com.tr">Neden Pasaj?</a>
+           <a href="www.google.com.tr">Yardım</a>
+           <a href="www.google.com.tr">Kampanyalar</a>
+       </li>
+   </ul>
+       
+   <div class="sepet"><p class="sepet-p">Sepetim</p><i class="fas fa-shopping-cart"></i></div>
+  
+   
+   <img class="acme" src="acme.png" alt="">
+      <input class="input" type="search" placeholder="Aranacak kelimeyi girin"><form class="categories" action="categories">
+       <select name="categories" id="category">
+          
+           <option>Tüm Kategoriler</option>
+           <option>Tüm Kategoriler</option>
+           <option>Tüm Kategoriler</option>
+          <option>Tüm Kategoriler</option>
+           
+       </select>
+   </form>
+   <form class="account" action="Account">
+   
+   <select name="account" id="accounts">
+       
+       <option value=""><i id="user" class="fas fa-user-circle"></i>Hesabım</option>
+       <option value="">can</option>
+       <option value="">Ali</option>
+       <option value="">Veli</option>
+       
+       
+  
+       
+   </select>
+  
+   
+   </form>
+         
+
+   
+   
+   
+  
+   
+    
+     
+    
+       
+       
+       
+   </div>
+   
+   
+   
+   
+   <div class="device">
+   
+   <ul>
+       <li>
+         <a class="logo" href=""><i class="fab fa-apple"></i></a>
+          
+           <a href="www.google.com.tr">iPhone</a>
+           <a href="www.google.com.tr">iPad</a>
+           <a href="www.google.com.tr">Mac</a>
+           <a href="www.google.com.tr">Apple Tv</a>
+           <a href="www.google.com.tr">Watch</a>
+           <a href="www.google.com.tr">Aksesuar</a>
+           
+           </li>
+           
+           
+       
+   </ul>
+   </div>
+   <br><br><hr>
+      <div class="aat">
+   
+   <ul>
+       
+           <a>Anasayfa></a>
+           <a>Apple></a>
+           <a>İphone</a>
+           
+       
+           
+           
+       
+   </ul>
+   </div>
+    <div class="ipo">
+   
+   <ul>
+       
+        
+           <a>İphone</a>   
+   </ul>
+        
+   </div>
+      
+      <div class="ııco"><svg xmlns="http://www.w3.org/2000/svg" width="80" height="150" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+          
+</svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="80" height="150" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="150" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="150" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="150" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="150" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="150" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg>
+      
+      
+      
+      </div>
+      <div class="ckma"> 
+       <select name="categories" id="category">
+          
+           <option>Sırala</option>
+           <option>Iphone 12</option>
+           <option>Iphone 11</option>
+           <option>Iphone Xr</option>   
+       </select>
+              
+          
+     
+      
+      </div>
+      
+    <div class="rsma" style="background-color: lightgrey">
+   <div class="card" style="width: 18rem;  ">
+  <img src="iphone11-select-2019-family_GEO_EMEA.jfif" class="card-img-top" alt="...">
+  <div class="card-body">
+   <h3 class="card-title"><font  color = “#000080”>Iphone 11 </ font></h3>
+  </div>
+
+  <div class="card-body">
+    <font  color = “40E0D0”>372,10 </ font><sup>TL*48AY</sup>
+    <font  color = “#000000”>7999<sup>TL PEŞİN</sup> </ font>
+  </div>
+</div>
+      <div class="card" style="width: 18rem;">
+  <img src="iphone-12-family-select-2021.jfif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title"><font  color = “#000080”>Iphone 12 Pro </ font></h3>
+  </div>
+
+  <div class="card-body">
+   <font  color = “40E0D0”>372,10 </ font><sup>TL*48AY</sup>
+    <font  color = “#000000”>7999<sup>TL PEŞİN</sup> </ font>
+  </div>
+</div>
+      <div class="card" style="width: 18rem;">
+  <img src="iphone-xr-select-2019-family.jfif" class="card-img-top" alt="...">
+  <div class="card-body">
+   <h3 class="card-title"><font  color = “#000080”>Iphone Xr </ font></h3>
+  </div>
+
+  <div class="card-body">
+    <font  color = “40E0D0”>372,10 </ font><sup>TL*48AY</sup>
+    <font  color = “#000000”>7999<sup>TL PEŞİN</sup> </ font>
+  </div>
+</div>
+      <div class="card" style="width: 18rem;">
+  <img src="1_org.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title"><font  color = “#000080”>Iphone Se </ font></h3>
+  </div>
+
+  <div class="card-body">
+    <font  color = “40E0D0”>372,10 </ font><sup>TL*48AY</sup>
+    <font  color = “#000000”>7999<sup>TL PEŞİN</sup> </ font>
+  </div>
+</div>
+      <div class="card" style="width: 18rem;">
+  <img src="1_org%20(1).jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title"><font  color = “#000080”>Iphone 11 </ font></h3>
+  </div>
+
+  <div class="card-body">
+   <font  color = “40E0D0”>372,10 </ font><sup>TL*48AY</sup>
+    <font  color = “#000000”>7999<sup>TL PEŞİN</sup> </ font>
+  </div>
+</div>
+      <div class="card" style="width: 18rem;">
+  <img src="1_org%20(2).jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title"><font  color = “#000080”>Iphone Xr </ font></h3>
+  </div>
+
+  <div class="card-body">
+  <font  color = “40E0D0”>372,10 </ font><sup>TL*48AY</sup>
+    <font  color = “#000000”>7999<sup>TL PEŞİN</sup> </ font>
+  </div>
+</div>
+      <div class="card" style="width: 18rem;">
+  <img src="1_org%20(2).jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title"><font  color = “#000080”>Iphone Xr </ font></h3>
+  </div>
+
+  <div class="card-body">
+   <font  color = “40E0D0”>372,10 </ font><sup>TL*48AY</sup>
+    <font  color = “#000000”>7999<sup>TL PEŞİN</sup> </ font>
+  </div>
+</div>
+      <div class="card" style="width: 18rem;">
+  <img src="1_org%20(1).jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title"><font  color = “#000080”>Iphone 11 </ font></h3>
+  </div>
+
+  <div class="card-body">
+   <font  color = “40E0D0”>372,10 </ font><sup>TL*48AY</sup>
+    <font  color = “#000000”>7999<sup>TL PEŞİN</sup> </ font>
+  </div>
+</div>
+      <div class="card" style="width: 18rem;">
+  <img src="1_org%20(3).jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title"><font  color = “#000080”>Iphone 12 Pro </ font></h3>
+  </div>
+
+  <div class="card-body">
+    <font  color = “40E0D0”>372,10 </ font><sup>TL*48AY</sup>
+    <font  color = “#000000”>7999<sup>TL PEŞİN</sup> </ font>
+  </div>
+</div>
+      <div class="card" style="width: 18rem;">
+  <img src="1_org.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title"><font  color = “#000080”>Iphone Se </ font></h3>
+  </div>
+
+  <div class="card-body">
+   <font  color = “40E0D0”>372,10 </ font><sup>TL*48AY</sup>
+    <font  color = “#000000”>7999<sup>TL PEŞİN</sup> </ font>
+  </div>
+</div>
+      <div class="card" style="width: 18rem;">
+  <img src="1_org%20(2).jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title"><font  color = “#000080”>Iphone Xr </ font></h3>
+    
+  </div>
+
+  <div class="card-body">
+    <font  color = “40E0D0”>372,10 </ font><sup>TL*48AY</sup>
+    <font  color = “#000000”>7999<sup>TL PEŞİN</sup> </ font>
+  </div>
+</div>
+      <div class="card" style="width: 18rem;">
+  <img src="1_org%20(1).jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+   <h3 class="card-title"><font  color = “#000080”>Iphone 11 </ font></h3>
+  </div>
+
+  <div class="card-body">
+    <font  color = “40E0D0”>372,10 </ font><sup>TL*48AY</sup>
+    <font  color = “#000000”>7999<sup>TL PEŞİN</sup> </ font>
+  </div>
+</div>
+ </div>        
+   </div>
+    <div>
+        <div class="ftr" style="background-color:aquamarine">
+          <footer class="row row-cols-5 py-5 my-5 border-top">
+   
+
+    <div class="col">
+      <h5>Section</h5>
+      <li>         
+            Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan 
+            </li>
+    </div>
+
+    <div class="col">
+        <h5>Müşteri Hizmetleri </h5>
+     <li>         
+            Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, 
+            </li>
+    </div>
+
+    <div class="col">
+        <h5>Hakkımızda </h5>
+     <li>         
+            Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri 
+            </li>
+    </div>
+     <div class="col">
+          <h5>Populer Linkler</h5>
+      <ul class="nav flex-column">
+       <li>         
+            Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak
+            </li>
+      </ul>
+    </div><div class="col">
+              <h5>Size En Yakın Mağza </h5>
+      <ul class="nav flex-column">
+        <li>         
+            Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak
+            </li>
+        
+      </ul>
+    </div>
+              
+              
+  </footer>
+        
+        
+        
+        
+        </div>
+        
+        
+       </div>
+    
+</body>
+</html>
